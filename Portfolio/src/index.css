@@ -1,7 +1,11 @@
 header {
-    background-color: darkslategrey;
     color:aliceblue;
     position: sticky;
+}
+
+body {
+    background: #2d2430;
+    background: linear-gradient(90deg,rgba(46, 46, 46, 1) 0%, rgb(57, 46, 65) 63%);
 }
 
 .card {
@@ -34,11 +38,6 @@ header {
     color: rgb(190, 115, 115, 80%);
 }
 
-.button {
-    background-color: rgb(221, 62, 62, 50%);
-    color:aliceblue;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+Footer {
+    color: white;
 }
