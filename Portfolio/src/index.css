@@ -63,6 +63,18 @@ h1 {
     color: rgb(190, 115, 115, 80%);
 }
 
+.skills {
+    background-color: grey;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    
+}
+
+.skills p {
+    margin: 0px;
+}
+
 Footer {
     color: white;
 }
