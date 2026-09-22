@@ -9,6 +9,7 @@ function App() {
     return(
       <>
         <Header/>
+        <h1>Portfolio</h1>
         <Card/>
         <Button/>
         <Skills/>

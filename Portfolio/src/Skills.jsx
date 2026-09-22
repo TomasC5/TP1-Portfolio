@@ -1,14 +1,9 @@
-function Skills() {
-    
-    const language1 = "JavaScript";
-    const language2 = "CSS";
+function Skills(props) {
     
     return(
-        <ul>
-            <li>HTML</li>
-            <li>{language2}</li>
-            <li>{language1.toUpperCase()}</li>
-        </ul>
+        <div>
+            <p>Language: {props.language}</p>
+        </div>
     );
 }
 

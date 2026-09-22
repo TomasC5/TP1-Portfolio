@@ -1,14 +1,13 @@
 function Header() {
     return(
         <header>
-            <h1>Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <button className="header-buttons"><a href="#">Home</a></button>
+                    <button className="header-buttons"><a href="#">About</a></button>
+                    <button className="header-buttons"><a href="#">Skills</a></button>
+                    <button className="header-buttons"><a href="#">Projects</a></button>
+                    <button className="header-buttons"><a href="#">Contact</a></button>
                 </ul>
             </nav>
             <hr></hr>
