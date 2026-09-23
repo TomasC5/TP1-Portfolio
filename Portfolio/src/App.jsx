@@ -6,16 +6,19 @@ import Button from "./Button/Button.jsx"
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import classesTaken from "./ClassesTaken.jsx"
+import {useState} from "react";
 
 function App() {
+
+    const [cardColor, setCardColor] = useState(null)
 
     return(
       <>
         <Header/>
         <h1>Portfolio</h1>
         <UserGreeting isLoggedIn={true} username = "Tomás" />
-        <Card/>
-        <Button/>
+        <Card cardColor = {cardColor}/>
+        <Button currentColor = {cardColor} currentColor1 = {setCardColor}/>
         <Skills/>
         <List classes={classesTaken} category="Programming"/>
         <Footer/>

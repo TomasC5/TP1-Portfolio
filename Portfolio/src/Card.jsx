@@ -1,8 +1,8 @@
 import pfp from './assets/pfp.jpg'
 
-function Card() {
+function Card(props) {
     return(
-        <div className = "card">
+        <div className = "card" style = {{backgroundColor: props.cardColor}}>
             <img className="card-image" src={pfp} alt="pfp" width="150"></img>
             <h2 className="card-title">Tomás </h2>
             <p className="card-text">Programming with React + Vite</p>
