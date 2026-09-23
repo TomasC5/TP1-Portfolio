@@ -1,3 +1,5 @@
+import ClassesTaken from "./ClassesTaken.jsx"
+
 function List(props) {
 
     const category = props.category;
