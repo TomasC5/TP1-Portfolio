@@ -12,6 +12,7 @@ My name is Azubel Tomas, this project contains a Portfolio made with React JS to
 6) Launch VSCode
 7) Drag and drop the project folder to VSCode
 8) Install the project's dependencies with Terminal -> New Terminal
-9) Run: npm install
-10) Run: npm run dev
-11) Ctrl + Click on the Local link shown in the terminal (typically http://localhost:5173/) to see the project result
+9) Run: cd ./Portfolio
+10) Run: npm install
+11) Run: npm run dev
+12) Ctrl + Click on the Local link shown in the terminal (typically http://localhost:5173/) to see the project result
