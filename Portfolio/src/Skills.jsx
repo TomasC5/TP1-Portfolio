@@ -1,7 +1,7 @@
 import Skill from './programmingSkills.jsx'
 
 function Skills() {
-    
+
     return(
         <div>
             <Skill language="HTML" summary="Webpage core" isLearnt={true}/>

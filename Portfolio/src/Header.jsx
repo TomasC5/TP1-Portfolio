@@ -4,13 +4,11 @@ function Header() {
             <nav>
                 <ul>
                     <button className="header-buttons"><a href="#">Home</a></button>
-                    <button className="header-buttons"><a href="#">About</a></button>
-                    <button className="header-buttons"><a href="#">Skills</a></button>
-                    <button className="header-buttons"><a href="#">Projects</a></button>
-                    <button className="header-buttons"><a href="#">Contact</a></button>
+                    <a className="header-buttons" href="#about-me">About</a>
+                    <button className="header-buttons"><a href="#my-skills">Skills</a></button>
+                    <button className="header-buttons"><a href="#my-projects">Projects</a></button>
                 </ul>
             </nav>
-            <hr></hr>
         </header>
     );
 }
