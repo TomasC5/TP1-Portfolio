@@ -40,7 +40,7 @@ h1 {
     color:red;
 }
 
-h3 {
+h2 {
     text-align: center;
     color: red;
 }
@@ -109,7 +109,7 @@ h3 {
     font-size: 1.2em;
     padding: 10px;
     border: 1px solid cornflowerblue;
-    height: 200px;
+    height: 350px;
 }
 
 .projects p {
@@ -125,6 +125,10 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
     gap: 20px;
+}
+
+p {
+    color:white;
 }
 
 Footer {
